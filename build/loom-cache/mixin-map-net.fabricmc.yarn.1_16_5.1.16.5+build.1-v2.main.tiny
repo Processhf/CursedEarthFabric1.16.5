@@ -1,0 +1,5 @@
+v1	named	intermediary
+METHOD	tfar/cursedearth/mixin/BlockTagsMixin	(Ljava/lang/String;)Lnet/minecraft/tag/Tag$Identified;	register	method_15069
+METHOD	tfar/cursedearth/mixin/EntityTypeTagsMixin	(Ljava/lang/String;)Lnet/minecraft/tag/Tag$Identified;	register	method_15077
+METHOD	tfar/cursedearth/mixin/MobSpawnerLogicMixin	()Lnet/minecraft/util/math/BlockPos;	getPos	method_8276
+METHOD	tfar/cursedearth/mixin/MobSpawnerLogicMixin	()Lnet/minecraft/world/World;	getWorld	method_8271

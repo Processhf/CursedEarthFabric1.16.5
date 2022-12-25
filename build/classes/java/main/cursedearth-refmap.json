@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "tfar/cursedearth/mixin/ServerWorldAccessor": {
+      "entitiesById": "field_17915:Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;"
+    },
+    "tfar/cursedearth/mixin/MobSpawnerLogicMixin": {
+      "isPlayerInRange": "Lnet/minecraft/class_1917;method_8284()Z"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "tfar/cursedearth/mixin/ServerWorldAccessor": {
+        "entitiesById": "field_17915:Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;"
+      },
+      "tfar/cursedearth/mixin/MobSpawnerLogicMixin": {
+        "isPlayerInRange": "Lnet/minecraft/class_1917;method_8284()Z"
+      }
+    }
+  }
+}

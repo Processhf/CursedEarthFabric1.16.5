@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "cursedearth",
+  "version": "${version}",
+  "name": "Cursed Earth 1.6.5 Fabric",
+  "description": "Cursed Earth 1.6.5 port",
+  "authors": [
+    "Process"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "tfar.cursedearth.CursedEarth"
+    ],
+    "client": [
+      "tfar.cursedearth.CursedEarthClient"
+    ]
+  },
+  "mixins": [
+    "cursedearth.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.16.x"
+  }
+}
